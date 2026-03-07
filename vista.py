@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 import os
 
+"""
+Aca se definen las funciones para mostrar los resultados y graficar. Es simple matplotlib, pero se usa un formato para mostrar los resultados en la grafica usando los valores de la lista.
+"""
+
 class SimulacionView:
 
     def mostrar_resultados(self, resultados):

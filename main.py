@@ -1,3 +1,16 @@
+"""
+Héctor E. Duarte Lambour
+Carné: 25939
+Simulación DES - Hoja de Trabajo 5
+
+Se utilizó la modalidad MVC para organizar el código en tres archivos:
+- modelo.py: Contiene la lógica de la simulación.
+- vista.py: Se encarga de mostrar los resultados y graficar.
+- controlador.py: Orquesta la interacción entre el modelo y la vista.
+- main.py: Ejecutar la simulación con diferentes escenarios. hace el papel de JUNIT... hasta cierto punto
+
+"""
+
 from controlador import SimulacionController
 
 if __name__ == "__main__":

@@ -1,6 +1,10 @@
 from modelo import SimulacionModel
 from vista import SimulacionView
 
+"""
+Este es como el director de orquesta que va a controlar todo, tanto el modelo como la vista. Llama una función u otra para correr la simulación y mostrar los resultados. 
+"""
+
 class SimulacionController:
 
     def __init__(self):
